@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* flip card styles */
+.perspective {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out;
+  position: relative;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+/* footer css*/
+body {
+  background-color: #000;
+  color: #fff;
+}
