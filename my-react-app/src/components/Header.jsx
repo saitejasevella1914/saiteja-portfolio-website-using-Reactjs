@@ -142,7 +142,7 @@ export default function Header() {
       {/* Floating Resume Button (mobile only) */}
       <div className="sm:hidden fixed bottom-6 right-6 z-50 group">
         <a
-          href="public/resume.pdf "
+          href="/resume.pdf "
           download
           className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-3 rounded-full shadow-lg transition-all"
         >
