@@ -78,7 +78,7 @@ export default function Skills() {
                   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg", label: "CSS3" },
                   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", label: "JavaScript" },
                   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", label: "React" },
-                  { src: "/assets/tailwindcss.svg", label: "Tailwind CSS" },
+                  { src: "/tailwindcss.svg", label: "Tailwind CSS" },
                   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", label: "Bootstrap" },
                 ].map(({ src, label }) => (
                   <div key={label} className="flex flex-col items-center text-sm hover:scale-110 transition-transform duration-300">
